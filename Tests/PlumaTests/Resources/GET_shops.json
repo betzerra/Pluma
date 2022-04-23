@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Tres",
+    "latitude": -34.5733,
+    "longitude": -58.4483,
+    "image": {
+      "url": "https://cdn.betzerra.com/mrpoopypants/production/shop/thumbnail/98/C76C9E31-CAFA-4AEC-95C7-A9ED8C148A9C.jpeg",
+      "thumbnail": "https://cdn.betzerra.com/mrpoopypants/production/shop/thumbnail/98/thumb_C76C9E31-CAFA-4AEC-95C7-A9ED8C148A9C.jpeg"
+    },
+    "has_delivery": false,
+    "created_at": "2022-04-23T22:46:52.000Z"
+  },
+  {
+    "id": 2,
+    "title": "Knowhere Collectibles",
+    "latitude": -34.5832,
+    "longitude": -58.4376,
+    "image": {
+      "url": "https://cdn.betzerra.com/mrpoopypants/production/shop/thumbnail/76/74928165_164172431339962_3448011933567053754_n.jpg",
+      "thumbnail": "https://cdn.betzerra.com/mrpoopypants/production/shop/thumbnail/76/thumb_74928165_164172431339962_3448011933567053754_n.jpg"
+    },
+    "has_delivery": false,
+    "created_at": "2020-09-02T17:15:43.657Z"
+  }
+]
