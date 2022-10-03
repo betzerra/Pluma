@@ -35,7 +35,7 @@ public class Pluma {
         return try self.decoder.decode(T.self, from: data)
     }
 
-    static func defaultDecoder() -> JSONDecoder {
+    public static func defaultDecoder() -> JSONDecoder {
         let aDecoder = JSONDecoder()
         let dateFormatter = defaultDateFormatter()
 
