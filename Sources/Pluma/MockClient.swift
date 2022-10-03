@@ -33,7 +33,7 @@ public class MockClient: APIClient {
         return "\(method.rawValue)_\(escapedPath)"
     }
 
-    func request(
+    public func request(
         method: Pluma.Method,
         path: String,
         params: [String : String]?

@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol APIClient {
+public protocol APIClient {
     func request(method: Pluma.Method, path: String, params: [String: String]?) async throws -> Data
 }

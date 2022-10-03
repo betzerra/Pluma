@@ -20,7 +20,7 @@ public class Pluma {
         self.decoder = decoder ?? Self.defaultDecoder()
     }
 
-    init(client: APIClient, decoder: JSONDecoder) {
+    public init(client: APIClient, decoder: JSONDecoder) {
         self.client = client
         self.decoder = decoder
     }
