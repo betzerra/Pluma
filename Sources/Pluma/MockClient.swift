@@ -7,16 +7,16 @@
 
 import Foundation
 
-class MockClient: APIClient {
+public class MockClient: APIClient {
     let bundle: Bundle
 
     /// Can "force" a response by assigning this property.
     ///
     /// - Note:
     /// If it's nil then it will look for a file and return its content.
-    var forcedResponse: Data?
+    public var forcedResponse: Data?
 
-    init(bundle: Bundle) {
+    public init(bundle: Bundle) {
         self.bundle = bundle
     }
 
@@ -33,7 +33,7 @@ class MockClient: APIClient {
         return "\(method.rawValue)_\(escapedPath)"
     }
 
-    func request(
+    public func request(
         method: Pluma.Method,
         path: String,
         params: [String : String]?

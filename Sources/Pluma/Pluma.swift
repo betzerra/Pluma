@@ -20,7 +20,7 @@ public class Pluma {
         self.decoder = decoder ?? Self.defaultDecoder()
     }
 
-    init(client: APIClient, decoder: JSONDecoder) {
+    public init(client: APIClient, decoder: JSONDecoder) {
         self.client = client
         self.decoder = decoder
     }
@@ -35,7 +35,7 @@ public class Pluma {
         return try self.decoder.decode(T.self, from: data)
     }
 
-    static func defaultDecoder() -> JSONDecoder {
+    public static func defaultDecoder() -> JSONDecoder {
         let aDecoder = JSONDecoder()
         let dateFormatter = defaultDateFormatter()
 
